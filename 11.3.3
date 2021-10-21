@@ -1,0 +1,8 @@
+user_input = input()
+hourly_temperature = user_input.split()
+
+for i in range(len(hourly_temperature)):
+    print(hourly_temperature[i], end=' ')
+    if i != len(hourly_temperature)-1:
+        print('-> ', end='')
+print()
